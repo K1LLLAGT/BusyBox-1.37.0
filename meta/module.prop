@@ -1,0 +1,6 @@
+id=busybox
+name=BusyBox 1.36.1
+version=1.36.1
+versionCode=1361
+author=Greg
+description=Full BusyBox suite with validator and dashboard export

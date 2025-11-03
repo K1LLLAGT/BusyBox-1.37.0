@@ -1,0 +1,6 @@
+BusyBox Module Scaffold Report
+------------------------------
+Version: BusyBox v1.37.0 (2025-08-29 18:43:22 UTC) multi-call binary.
+Applet count: 272
+Symlinks installed: yes
+Scaffolded at: Mon Nov  3 00:35:27 EST 2025

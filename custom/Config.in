@@ -1,0 +1,15 @@
+menu "Busybox User Tools"
+
+config BUSYBOX_SU_PATH
+    string "Path to su binary"
+    default "~/system/bin/su"
+
+config BUSYBOX_SUDO_PATH
+    string "Path to sudo binary"
+    default "/data/data/com.termux/files/usr/bin/sudo"
+
+config BUSYBOX_PACKAGES_INFO
+    string "Path to extracted package info"
+    default "~/packages-info.md"
+
+endmenu

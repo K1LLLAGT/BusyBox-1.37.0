@@ -1,0 +1,484 @@
+[34m/data/data/com.termux/files/home/busybox-1.36.1[0m
+├── [31mREADME.md[0m
+├── [34massets[0m
+├── [31mbundle_wizard.sh[0m
+├── [34mbusybox-1.36.1[0m
+│   ├── [34massets[0m
+│   ├── [34mdashboards[0m
+│   ├── [34minstallers[0m
+│   ├── [34mmeta[0m
+│   ├── [34mmodules[0m
+│   ├── [34mscripts[0m
+│   ├── [34mvalidators[0m
+│   └── [34mwrappers[0m
+├── [31mbusybox-docs.zip[0m
+├── busybox_asset_inventory.md
+├── [31mbusybox_commands_list.txt[0m
+├── [31mbusybox_interactive_learning.sh[0m
+├── [31mbusybox_missing_modules.md[0m
+├── busybox_module_status.md
+├── [31mbusybox_wrapper.py[0m
+├── [31mbusybox_wrapper.sh[0m
+├── [34mcustom[0m
+│   └── Config.in
+├── [34mdashboards[0m
+│   ├── [31mbusybox-scaffold-report.txt[0m
+│   └── [31mbusybox_commands_list.txt[0m
+├── directory-layout.txt
+├── [31mextract-packages.sh[0m
+├── [31mextract_packages.sh[0m
+├── [31mgenerate_README.sh[0m
+├── [31mgenerate_index.sh[0m
+├── [31mgeneratedashboardbundle.sh[0m
+├── [31mgeneratepermissionsreport.sh[0m
+├── [34mgradle[0m
+│   ├── libs.versions.toml
+│   └── [34mwrapper[0m
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── [31mgradle.properties[0m
+├── [31mgradlew[0m
+├── [31mgradlew.bat[0m
+├── [31mindex.html[0m
+├── [31minstall.sh[0m
+├── [34minstallers[0m
+│   ├── [31mbuild_apk.sh[0m
+│   ├── [31minstall_apk.sh[0m
+│   ├── [31minstall_busybox.py[0m
+│   └── [31minstall_busybox.sh[0m
+├── menuconfig_patch.sh
+├── [34mmeta[0m
+│   ├── [31mAndroidManifest.xml[0m
+│   ├── [31mMainActivity.kt[0m
+│   ├── [31mbusybox-wrapper-app.txt[0m
+│   └── [31mmodule.prop[0m
+├── [34mmodules[0m
+│   ├── [34mMETA-INF[0m
+│   │   └── [34mcom[0m
+│   │       └── [34mgoogle[0m
+│   │           └── [34mandroid[0m
+│   │               ├── [31mupdate-binary[0m
+│   │               └── updater-script
+│   └── [34msystem[0m
+│       ├── [34mbin[0m
+│       └── [34mxbin[0m
+│           ├── [35m[[0m -> [31mbusybox[0m
+│           ├── [35m[[[0m -> [31mbusybox[0m
+│           ├── [35macpid[0m -> [31mbusybox[0m
+│           ├── [35madjtimex[0m -> [31mbusybox[0m
+│           ├── [35mar[0m -> [31mbusybox[0m
+│           ├── [35march[0m -> [31mbusybox[0m
+│           ├── [35marp[0m -> [31mbusybox[0m
+│           ├── [35marping[0m -> [31mbusybox[0m
+│           ├── [35mascii[0m -> [31mbusybox[0m
+│           ├── [35mash[0m -> [31mbusybox[0m
+│           ├── [35mawk[0m -> [31mbusybox[0m
+│           ├── [35mbase32[0m -> [31mbusybox[0m
+│           ├── [35mbase64[0m -> [31mbusybox[0m
+│           ├── [35mbasename[0m -> [31mbusybox[0m
+│           ├── [35mbbconfig[0m -> [31mbusybox[0m
+│           ├── [35mbc[0m -> [31mbusybox[0m
+│           ├── [35mbeep[0m -> [31mbusybox[0m
+│           ├── [35mblkdiscard[0m -> [31mbusybox[0m
+│           ├── [35mblkid[0m -> [31mbusybox[0m
+│           ├── [35mblockdev[0m -> [31mbusybox[0m
+│           ├── [35mbrctl[0m -> [31mbusybox[0m
+│           ├── [35mbunzip2[0m -> [31mbusybox[0m
+│           ├── [31mbusybox[0m
+│           ├── [35mbzcat[0m -> [31mbusybox[0m
+│           ├── [35mbzip2[0m -> [31mbusybox[0m
+│           ├── [35mcal[0m -> [31mbusybox[0m
+│           ├── [35mcat[0m -> [31mbusybox[0m
+│           ├── [35mchat[0m -> [31mbusybox[0m
+│           ├── [35mchattr[0m -> [31mbusybox[0m
+│           ├── [35mchcon[0m -> [31mbusybox[0m
+│           ├── [35mchgrp[0m -> [31mbusybox[0m
+│           ├── [35mchmod[0m -> [31mbusybox[0m
+│           ├── [35mchown[0m -> [31mbusybox[0m
+│           ├── [35mchpst[0m -> [31mbusybox[0m
+│           ├── [35mchroot[0m -> [31mbusybox[0m
+│           ├── [35mchrt[0m -> [31mbusybox[0m
+│           ├── [35mchvt[0m -> [31mbusybox[0m
+│           ├── [35mcksum[0m -> [31mbusybox[0m
+│           ├── [35mclear[0m -> [31mbusybox[0m
+│           ├── [35mcmp[0m -> [31mbusybox[0m
+│           ├── [35mcomm[0m -> [31mbusybox[0m
+│           ├── [35mconspy[0m -> [31mbusybox[0m
+│           ├── [35mcp[0m -> [31mbusybox[0m
+│           ├── [35mcpio[0m -> [31mbusybox[0m
+│           ├── [35mcrc32[0m -> [31mbusybox[0m
+│           ├── [35mcrond[0m -> [31mbusybox[0m
+│           ├── [35mcrontab[0m -> [31mbusybox[0m
+│           ├── [35mcttyhack[0m -> [31mbusybox[0m
+│           ├── [35mcut[0m -> [31mbusybox[0m
+│           ├── [35mdate[0m -> [31mbusybox[0m
+│           ├── [35mdc[0m -> [31mbusybox[0m
+│           ├── [35mdd[0m -> [31mbusybox[0m
+│           ├── [35mdeallocvt[0m -> [31mbusybox[0m
+│           ├── [35mdepmod[0m -> [31mbusybox[0m
+│           ├── [35mdevmem[0m -> [31mbusybox[0m
+│           ├── [35mdf[0m -> [31mbusybox[0m
+│           ├── [35mdhcprelay[0m -> [31mbusybox[0m
+│           ├── [35mdiff[0m -> [31mbusybox[0m
+│           ├── [35mdirname[0m -> [31mbusybox[0m
+│           ├── [35mdmesg[0m -> [31mbusybox[0m
+│           ├── [35mdnsd[0m -> [31mbusybox[0m
+│           ├── [35mdnsdomainname[0m -> [31mbusybox[0m
+│           ├── [35mdos2unix[0m -> [31mbusybox[0m
+│           ├── [35mdu[0m -> [31mbusybox[0m
+│           ├── [35mdumpkmap[0m -> [31mbusybox[0m
+│           ├── [35mdumpleases[0m -> [31mbusybox[0m
+│           ├── [35mecho[0m -> [31mbusybox[0m
+│           ├── [35med[0m -> [31mbusybox[0m
+│           ├── [35megrep[0m -> [31mbusybox[0m
+│           ├── [35meject[0m -> [31mbusybox[0m
+│           ├── [35menv[0m -> [31mbusybox[0m
+│           ├── [35menvdir[0m -> [31mbusybox[0m
+│           ├── [35mether-wake[0m -> [31mbusybox[0m
+│           ├── [35mexpand[0m -> [31mbusybox[0m
+│           ├── [35mexpr[0m -> [31mbusybox[0m
+│           ├── [35mfactor[0m -> [31mbusybox[0m
+│           ├── [35mfakeidentd[0m -> [31mbusybox[0m
+│           ├── [35mfallocate[0m -> [31mbusybox[0m
+│           ├── [35mfalse[0m -> [31mbusybox[0m
+│           ├── [35mfatattr[0m -> [31mbusybox[0m
+│           ├── [35mfbset[0m -> [31mbusybox[0m
+│           ├── [35mfbsplash[0m -> [31mbusybox[0m
+│           ├── [35mfdflush[0m -> [31mbusybox[0m
+│           ├── [35mfdformat[0m -> [31mbusybox[0m
+│           ├── [35mfdisk[0m -> [31mbusybox[0m
+│           ├── [35mfgconsole[0m -> [31mbusybox[0m
+│           ├── [35mfgrep[0m -> [31mbusybox[0m
+│           ├── [35mfind[0m -> [31mbusybox[0m
+│           ├── [35mfindfs[0m -> [31mbusybox[0m
+│           ├── [35mflash_eraseall[0m -> [31mbusybox[0m
+│           ├── [35mflash_lock[0m -> [31mbusybox[0m
+│           ├── [35mflash_unlock[0m -> [31mbusybox[0m
+│           ├── [35mflock[0m -> [31mbusybox[0m
+│           ├── [35mfold[0m -> [31mbusybox[0m
+│           ├── [35mfree[0m -> [31mbusybox[0m
+│           ├── [35mfreeramdisk[0m -> [31mbusybox[0m
+│           ├── [35mfsck[0m -> [31mbusybox[0m
+│           ├── [35mfsck.minix[0m -> [31mbusybox[0m
+│           ├── [35mfsfreeze[0m -> [31mbusybox[0m
+│           ├── [35mfstrim[0m -> [31mbusybox[0m
+│           ├── [35mfsync[0m -> [31mbusybox[0m
+│           ├── [35mftpd[0m -> [31mbusybox[0m
+│           ├── [35mftpget[0m -> [31mbusybox[0m
+│           ├── [35mftpput[0m -> [31mbusybox[0m
+│           ├── [35mfuser[0m -> [31mbusybox[0m
+│           ├── [35mgetenforce[0m -> [31mbusybox[0m
+│           ├── [35mgetopt[0m -> [31mbusybox[0m
+│           ├── [35mgrep[0m -> [31mbusybox[0m
+│           ├── [35mgroups[0m -> [31mbusybox[0m
+│           ├── [35mgunzip[0m -> [31mbusybox[0m
+│           ├── [35mgzip[0m -> [31mbusybox[0m
+│           ├── [35mhd[0m -> [31mbusybox[0m
+│           ├── [35mhdparm[0m -> [31mbusybox[0m
+│           ├── [35mhead[0m -> [31mbusybox[0m
+│           ├── [35mhexdump[0m -> [31mbusybox[0m
+│           ├── [35mhexedit[0m -> [31mbusybox[0m
+│           ├── [35mhostname[0m -> [31mbusybox[0m
+│           ├── [35mhttpd[0m -> [31mbusybox[0m
+│           ├── [35mhush[0m -> [31mbusybox[0m
+│           ├── [35mhwclock[0m -> [31mbusybox[0m
+│           ├── [35mid[0m -> [31mbusybox[0m
+│           ├── [35mifconfig[0m -> [31mbusybox[0m
+│           ├── [35mifdown[0m -> [31mbusybox[0m
+│           ├── [35mifenslave[0m -> [31mbusybox[0m
+│           ├── [35mifplugd[0m -> [31mbusybox[0m
+│           ├── [35mifup[0m -> [31mbusybox[0m
+│           ├── [35minetd[0m -> [31mbusybox[0m
+│           ├── [35minotifyd[0m -> [31mbusybox[0m
+│           ├── [35minsmod[0m -> [31mbusybox[0m
+│           ├── [35minstall[0m -> [31mbusybox[0m
+│           ├── [35mionice[0m -> [31mbusybox[0m
+│           ├── [35miostat[0m -> [31mbusybox[0m
+│           ├── [35mip[0m -> [31mbusybox[0m
+│           ├── [35mipaddr[0m -> [31mbusybox[0m
+│           ├── [35mipcalc[0m -> [31mbusybox[0m
+│           ├── [35mipcrm[0m -> [31mbusybox[0m
+│           ├── [35mipcs[0m -> [31mbusybox[0m
+│           ├── [35miplink[0m -> [31mbusybox[0m
+│           ├── [35mipneigh[0m -> [31mbusybox[0m
+│           ├── [35miproute[0m -> [31mbusybox[0m
+│           ├── [35miprule[0m -> [31mbusybox[0m
+│           ├── [35miptunnel[0m -> [31mbusybox[0m
+│           ├── [35mkbd_mode[0m -> [31mbusybox[0m
+│           ├── [35mkill[0m -> [31mbusybox[0m
+│           ├── [35mkillall[0m -> [31mbusybox[0m
+│           ├── [35mkillall5[0m -> [31mbusybox[0m
+│           ├── [35mklogd[0m -> [31mbusybox[0m
+│           ├── [35mless[0m -> [31mbusybox[0m
+│           ├── [35mlink[0m -> [31mbusybox[0m
+│           ├── [35mlinux32[0m -> [31mbusybox[0m
+│           ├── [35mlinux64[0m -> [31mbusybox[0m
+│           ├── [35mln[0m -> [31mbusybox[0m
+│           ├── [35mloadfont[0m -> [31mbusybox[0m
+│           ├── [35mloadkmap[0m -> [31mbusybox[0m
+│           ├── [35mlogread[0m -> [31mbusybox[0m
+│           ├── [35mlosetup[0m -> [31mbusybox[0m
+│           ├── [35mls[0m -> [31mbusybox[0m
+│           ├── [35mlsattr[0m -> [31mbusybox[0m
+│           ├── [35mlsmod[0m -> [31mbusybox[0m
+│           ├── [35mlsof[0m -> [31mbusybox[0m
+│           ├── [35mlspci[0m -> [31mbusybox[0m
+│           ├── [35mlsscsi[0m -> [31mbusybox[0m
+│           ├── [35mlsusb[0m -> [31mbusybox[0m
+│           ├── [35mlzcat[0m -> [31mbusybox[0m
+│           ├── [35mlzma[0m -> [31mbusybox[0m
+│           ├── [35mlzop[0m -> [31mbusybox[0m
+│           ├── [35mlzopcat[0m -> [31mbusybox[0m
+│           ├── [35mmakedevs[0m -> [31mbusybox[0m
+│           ├── [35mmakemime[0m -> [31mbusybox[0m
+│           ├── [35mman[0m -> [31mbusybox[0m
+│           ├── [35mmd5sum[0m -> [31mbusybox[0m
+│           ├── [35mmesg[0m -> [31mbusybox[0m
+│           ├── [35mmicrocom[0m -> [31mbusybox[0m
+│           ├── [35mmim[0m -> [31mbusybox[0m
+│           ├── [35mmkdir[0m -> [31mbusybox[0m
+│           ├── [35mmkdosfs[0m -> [31mbusybox[0m
+│           ├── [35mmke2fs[0m -> [31mbusybox[0m
+│           ├── [35mmkfifo[0m -> [31mbusybox[0m
+│           ├── [35mmkfs.ext2[0m -> [31mbusybox[0m
+│           ├── [35mmkfs.minix[0m -> [31mbusybox[0m
+│           ├── [35mmkfs.reiser[0m -> [31mbusybox[0m
+│           ├── [35mmkfs.vfat[0m -> [31mbusybox[0m
+│           ├── [35mmknod[0m -> [31mbusybox[0m
+│           ├── [35mmkswap[0m -> [31mbusybox[0m
+│           ├── [35mmktemp[0m -> [31mbusybox[0m
+│           ├── [35mmodinfo[0m -> [31mbusybox[0m
+│           ├── [35mmodprobe[0m -> [31mbusybox[0m
+│           ├── [35mmore[0m -> [31mbusybox[0m
+│           ├── [35mmount[0m -> [31mbusybox[0m
+│           ├── [35mmountpoint[0m -> [31mbusybox[0m
+│           ├── [35mmpstat[0m -> [31mbusybox[0m
+│           ├── [35mmv[0m -> [31mbusybox[0m
+│           ├── [35mnameif[0m -> [31mbusybox[0m
+│           ├── [35mnanddump[0m -> [31mbusybox[0m
+│           ├── [35mnandwrite[0m -> [31mbusybox[0m
+│           ├── [35mnbd-client[0m -> [31mbusybox[0m
+│           ├── [35mnc[0m -> [31mbusybox[0m
+│           ├── [35mnetcat[0m -> [31mbusybox[0m
+│           ├── [35mnetstat[0m -> [31mbusybox[0m
+│           ├── [35mnice[0m -> [31mbusybox[0m
+│           ├── [35mnl[0m -> [31mbusybox[0m
+│           ├── [35mnmeter[0m -> [31mbusybox[0m
+│           ├── [35mnohup[0m -> [31mbusybox[0m
+│           ├── [35mnologin[0m -> [31mbusybox[0m
+│           ├── [35mnproc[0m -> [31mbusybox[0m
+│           ├── [35mnsenter[0m -> [31mbusybox[0m
+│           ├── [35mnslookup[0m -> [31mbusybox[0m
+│           ├── [35mntpd[0m -> [31mbusybox[0m
+│           ├── [35mnuke[0m -> [31mbusybox[0m
+│           ├── [35mod[0m -> [31mbusybox[0m
+│           ├── [35mopenvt[0m -> [31mbusybox[0m
+│           ├── [35mpartprobe[0m -> [31mbusybox[0m
+│           ├── [35mpaste[0m -> [31mbusybox[0m
+│           ├── [35mpatch[0m -> [31mbusybox[0m
+│           ├── [35mpgrep[0m -> [31mbusybox[0m
+│           ├── [35mpidof[0m -> [31mbusybox[0m
+│           ├── [35mping[0m -> [31mbusybox[0m
+│           ├── [35mping6[0m -> [31mbusybox[0m
+│           ├── [35mpipe_progress[0m -> [31mbusybox[0m
+│           ├── [35mpivot_root[0m -> [31mbusybox[0m
+│           ├── [35mpkill[0m -> [31mbusybox[0m
+│           ├── [35mpmap[0m -> [31mbusybox[0m
+│           ├── [35mpopmaildir[0m -> [31mbusybox[0m
+│           ├── [35mpoweroff[0m -> [31mbusybox[0m
+│           ├── [35mpowertop[0m -> [31mbusybox[0m
+│           ├── [35mprintenv[0m -> [31mbusybox[0m
+│           ├── [35mprintf[0m -> [31mbusybox[0m
+│           ├── [35mps[0m -> [31mbusybox[0m
+│           ├── [35mpscan[0m -> [31mbusybox[0m
+│           ├── [35mpstree[0m -> [31mbusybox[0m
+│           ├── [35mpwd[0m -> [31mbusybox[0m
+│           ├── [35mpwdx[0m -> [31mbusybox[0m
+│           ├── [35mraidautorun[0m -> [31mbusybox[0m
+│           ├── [35mrdate[0m -> [31mbusybox[0m
+│           ├── [35mrdev[0m -> [31mbusybox[0m
+│           ├── [35mreadlink[0m -> [31mbusybox[0m
+│           ├── [35mreadprofile[0m -> [31mbusybox[0m
+│           ├── [35mrealpath[0m -> [31mbusybox[0m
+│           ├── [35mreboot[0m -> [31mbusybox[0m
+│           ├── [35mreformime[0m -> [31mbusybox[0m
+│           ├── [35mrenice[0m -> [31mbusybox[0m
+│           ├── [35mreset[0m -> [31mbusybox[0m
+│           ├── [35mresize[0m -> [31mbusybox[0m
+│           ├── [35mresume[0m -> [31mbusybox[0m
+│           ├── [35mrev[0m -> [31mbusybox[0m
+│           ├── [35mrfkill[0m -> [31mbusybox[0m
+│           ├── [35mrm[0m -> [31mbusybox[0m
+│           ├── [35mrmdir[0m -> [31mbusybox[0m
+│           ├── [35mrmmod[0m -> [31mbusybox[0m
+│           ├── [35mroute[0m -> [31mbusybox[0m
+│           ├── [35mrtcwake[0m -> [31mbusybox[0m
+│           ├── [35mrun-init[0m -> [31mbusybox[0m
+│           ├── [35mrun-parts[0m -> [31mbusybox[0m
+│           ├── [35mruncon[0m -> [31mbusybox[0m
+│           ├── [35mrunsv[0m -> [31mbusybox[0m
+│           ├── [35mrunsvdir[0m -> [31mbusybox[0m
+│           ├── [35mrx[0m -> [31mbusybox[0m
+│           ├── [35mscript[0m -> [31mbusybox[0m
+│           ├── [35mscriptreplay[0m -> [31mbusybox[0m
+│           ├── [35msed[0m -> [31mbusybox[0m
+│           ├── [35mseedrng[0m -> [31mbusybox[0m
+│           ├── [35mselinuxenabled[0m -> [31mbusybox[0m
+│           ├── [35msendmail[0m -> [31mbusybox[0m
+│           ├── [35mseq[0m -> [31mbusybox[0m
+│           ├── [35msestatus[0m -> [31mbusybox[0m
+│           ├── [35msetarch[0m -> [31mbusybox[0m
+│           ├── [35msetconsole[0m -> [31mbusybox[0m
+│           ├── [35msetenforce[0m -> [31mbusybox[0m
+│           ├── [35msetfattr[0m -> [31mbusybox[0m
+│           ├── [35msetfont[0m -> [31mbusybox[0m
+│           ├── [35msetkeycodes[0m -> [31mbusybox[0m
+│           ├── [35msetlogcons[0m -> [31mbusybox[0m
+│           ├── [35msetpriv[0m -> [31mbusybox[0m
+│           ├── [35msetserial[0m -> [31mbusybox[0m
+│           ├── [35msetsid[0m -> [31mbusybox[0m
+│           ├── [35msetuidgid[0m -> [31mbusybox[0m
+│           ├── [35msh[0m -> [31mbusybox[0m
+│           ├── [35msha1sum[0m -> [31mbusybox[0m
+│           ├── [35msha256sum[0m -> [31mbusybox[0m
+│           ├── [35msha3sum[0m -> [31mbusybox[0m
+│           ├── [35msha512sum[0m -> [31mbusybox[0m
+│           ├── [35mshowkey[0m -> [31mbusybox[0m
+│           ├── [35mshred[0m -> [31mbusybox[0m
+│           ├── [35mshuf[0m -> [31mbusybox[0m
+│           ├── [35mslattach[0m -> [31mbusybox[0m
+│           ├── [35msleep[0m -> [31mbusybox[0m
+│           ├── [35msmemcap[0m -> [31mbusybox[0m
+│           ├── [35msoftlimit[0m -> [31mbusybox[0m
+│           ├── [35msort[0m -> [31mbusybox[0m
+│           ├── [35msplit[0m -> [31mbusybox[0m
+│           ├── [35mssl_client[0m -> [31mbusybox[0m
+│           ├── [35mstart-stop-daemon[0m -> [31mbusybox[0m
+│           ├── [35mstat[0m -> [31mbusybox[0m
+│           ├── [35mstrings[0m -> [31mbusybox[0m
+│           ├── [35mstty[0m -> [31mbusybox[0m
+│           ├── [35msum[0m -> [31mbusybox[0m
+│           ├── [35msv[0m -> [31mbusybox[0m
+│           ├── [35msvc[0m -> [31mbusybox[0m
+│           ├── [35msvlogd[0m -> [31mbusybox[0m
+│           ├── [35msvok[0m -> [31mbusybox[0m
+│           ├── [35mswapoff[0m -> [31mbusybox[0m
+│           ├── [35mswapon[0m -> [31mbusybox[0m
+│           ├── [35mswitch_root[0m -> [31mbusybox[0m
+│           ├── [35msync[0m -> [31mbusybox[0m
+│           ├── [35msysctl[0m -> [31mbusybox[0m
+│           ├── [35msyslogd[0m -> [31mbusybox[0m
+│           ├── [35mtac[0m -> [31mbusybox[0m
+│           ├── [35mtail[0m -> [31mbusybox[0m
+│           ├── [35mtar[0m -> [31mbusybox[0m
+│           ├── [35mtc[0m -> [31mbusybox[0m
+│           ├── [35mtcpsvd[0m -> [31mbusybox[0m
+│           ├── [35mtee[0m -> [31mbusybox[0m
+│           ├── [35mtelnet[0m -> [31mbusybox[0m
+│           ├── [35mtelnetd[0m -> [31mbusybox[0m
+│           ├── [35mtest[0m -> [31mbusybox[0m
+│           ├── [35mtftp[0m -> [31mbusybox[0m
+│           ├── [35mtftpd[0m -> [31mbusybox[0m
+│           ├── [35mtime[0m -> [31mbusybox[0m
+│           ├── [35mtimeout[0m -> [31mbusybox[0m
+│           ├── [35mtop[0m -> [31mbusybox[0m
+│           ├── [35mtouch[0m -> [31mbusybox[0m
+│           ├── [35mtr[0m -> [31mbusybox[0m
+│           ├── [35mtraceroute[0m -> [31mbusybox[0m
+│           ├── [35mtraceroute6[0m -> [31mbusybox[0m
+│           ├── [35mtree[0m -> [31mbusybox[0m
+│           ├── [35mtrue[0m -> [31mbusybox[0m
+│           ├── [35mtruncate[0m -> [31mbusybox[0m
+│           ├── [35mts[0m -> [31mbusybox[0m
+│           ├── [35mtsort[0m -> [31mbusybox[0m
+│           ├── [35mtty[0m -> [31mbusybox[0m
+│           ├── [35mttysize[0m -> [31mbusybox[0m
+│           ├── [35mtunctl[0m -> [31mbusybox[0m
+│           ├── [35mtune2fs[0m -> [31mbusybox[0m
+│           ├── [35mubiattach[0m -> [31mbusybox[0m
+│           ├── [35mubidetach[0m -> [31mbusybox[0m
+│           ├── [35mubimkvol[0m -> [31mbusybox[0m
+│           ├── [35mubirename[0m -> [31mbusybox[0m
+│           ├── [35mubirmvol[0m -> [31mbusybox[0m
+│           ├── [35mubirsvol[0m -> [31mbusybox[0m
+│           ├── [35mubiupdatevol[0m -> [31mbusybox[0m
+│           ├── [35mudhcpc[0m -> [31mbusybox[0m
+│           ├── [35mudhcpc6[0m -> [31mbusybox[0m
+│           ├── [35mudhcpd[0m -> [31mbusybox[0m
+│           ├── [35mudpsvd[0m -> [31mbusybox[0m
+│           ├── [35muevent[0m -> [31mbusybox[0m
+│           ├── [35mumount[0m -> [31mbusybox[0m
+│           ├── [35muname[0m -> [31mbusybox[0m
+│           ├── [35muncompress[0m -> [31mbusybox[0m
+│           ├── [35munexpand[0m -> [31mbusybox[0m
+│           ├── [35muniq[0m -> [31mbusybox[0m
+│           ├── [35munix2dos[0m -> [31mbusybox[0m
+│           ├── [35munlink[0m -> [31mbusybox[0m
+│           ├── [35munlzma[0m -> [31mbusybox[0m
+│           ├── [35munlzop[0m -> [31mbusybox[0m
+│           ├── [35munshare[0m -> [31mbusybox[0m
+│           ├── [35munxz[0m -> [31mbusybox[0m
+│           ├── [35munzip[0m -> [31mbusybox[0m
+│           ├── [35muptime[0m -> [31mbusybox[0m
+│           ├── [35musleep[0m -> [31mbusybox[0m
+│           ├── [35muudecode[0m -> [31mbusybox[0m
+│           ├── [35muuencode[0m -> [31mbusybox[0m
+│           ├── [35mvconfig[0m -> [31mbusybox[0m
+│           ├── [35mvi[0m -> [31mbusybox[0m
+│           ├── [35mvolname[0m -> [31mbusybox[0m
+│           ├── [35mwatch[0m -> [31mbusybox[0m
+│           ├── [35mwatchdog[0m -> [31mbusybox[0m
+│           ├── [35mwc[0m -> [31mbusybox[0m
+│           ├── [35mwget[0m -> [31mbusybox[0m
+│           ├── [35mwhich[0m -> [31mbusybox[0m
+│           ├── [35mwhoami[0m -> [31mbusybox[0m
+│           ├── [35mwhois[0m -> [31mbusybox[0m
+│           ├── [35mxargs[0m -> [31mbusybox[0m
+│           ├── [35mxxd[0m -> [31mbusybox[0m
+│           ├── [35mxz[0m -> [31mbusybox[0m
+│           ├── [35mxzcat[0m -> [31mbusybox[0m
+│           ├── [35myes[0m -> [31mbusybox[0m
+│           ├── [35mzcat[0m -> [31mbusybox[0m
+│           └── [35mzcip[0m -> [31mbusybox[0m
+├── [31mpermissions-report.html[0m
+├── [31mpermissions-report.txt[0m
+├── [31mpermissions.sh[0m
+├── [34mplugin[0m
+│   ├── build.gradle.kts
+│   └── [34msrc[0m
+│       ├── [34mfunctionalTest[0m
+│       │   └── [34mjava[0m
+│       │       └── [34morg[0m
+│       │           └── [34mexample[0m
+│       │               └── Busybox1361PluginFunctionalTest.java
+│       ├── [34mmain[0m
+│       │   ├── [34mjava[0m
+│       │   │   └── [34morg[0m
+│       │   │       └── [34mexample[0m
+│       │   │           └── Busybox1361Plugin.java
+│       │   └── [34mresources[0m
+│       └── [34mtest[0m
+│           ├── [34mjava[0m
+│           │   └── [34morg[0m
+│           │       └── [34mexample[0m
+│           │           └── Busybox1361PluginTest.java
+│           └── [34mresources[0m
+├── [31mpublish_bundle.sh[0m
+├── [31mreform-report.txt[0m
+├── [31mreformbusyboxlayout.sh[0m
+├── [34mscripts[0m
+│   ├── [31mcustomize.sh[0m
+│   └── [31mscaffold_busybox_module.sh[0m
+├── serve_bundle.sh
+├── [31mserve_index.sh[0m
+├── [31msettings.gradle.kts[0m
+├── test_run.log
+├── [31mtest_run.sh[0m
+├── [34mvalidators[0m
+│   ├── [31mvalidate_apk.sh[0m
+│   └── [31mvalidatebusyboxmodule.sh[0m
+└── [34mwrappers[0m
+    ├── [31mbusybox_wrapper.py[0m
+    └── [31mbusybox_wrapper.sh[0m
+
+44 directories, 438 files

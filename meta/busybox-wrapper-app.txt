@@ -1,0 +1,14 @@
+busybox-wrapper-app/
+├── app/
+│   ├── src/main/
+│   │   ├── java/com/greg/busyboxwrapper/
+│   │   │   ├── MainActivity.kt
+│   │   │   └── Installer.kt
+│   │   ├── res/layout/
+│   │   │   └── activity_main.xml
+│   │   ├── assets/
+│   │   │   └── busybox (binary)
+│   │   └── AndroidManifest.xml
+│   └── build.gradle
+├── build.gradle
+└── README.md

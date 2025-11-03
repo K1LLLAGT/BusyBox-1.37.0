@@ -1,0 +1,503 @@
+# BusyBox Commands List (v1.37.0)
+
+This is a comprehensive list of commands typically available in BusyBox 1.37.0. To see the exact list on your Termux installation, run: `busybox --list`
+
+## Complete Command List
+
+### A
+- **[** - Test command (alias for test)
+- **[[** - Extended test command
+- **acpid** - ACPI event daemon
+- **add-shell** - Add shell to /etc/shells
+- **addgroup** - Add a group
+- **adduser** - Add a user
+- **adjtimex** - Read/set kernel time variables
+- **ar** - Archive utility
+- **arch** - Print machine architecture
+- **arp** - Manipulate ARP cache
+- **arping** - Send ARP requests
+- **ash** - Ash shell
+- **awk** - Pattern scanning and processing language
+
+### B
+- **base32** - Base32 encode/decode
+- **base64** - Base64 encode/decode
+- **basename** - Strip directory and suffix from filenames
+- **bc** - Arbitrary precision calculator
+- **beep** - Beep the system speaker
+- **blkdiscard** - Discard sectors on a device
+- **blkid** - Print block device attributes
+- **blockdev** - Call block device ioctls
+- **bootchartd** - Boot process performance analyzer
+- **brctl** - Manage ethernet bridges
+- **bunzip2** - Decompress bzip2 files
+- **bzcat** - Decompress bzip2 to stdout
+- **bzip2** - Compress files using bzip2
+
+### C
+- **cal** - Display calendar
+- **cat** - Concatenate files and print
+- **chat** - Automated conversational script
+- **chattr** - Change file attributes
+- **chgrp** - Change group ownership
+- **chmod** - Change file mode bits
+- **chown** - Change file owner and group
+- **chpasswd** - Update passwords in batch
+- **chpst** - Run program with changed process state
+- **chroot** - Run command with special root directory
+- **chrt** - Manipulate real-time attributes
+- **chvt** - Change foreground virtual terminal
+- **cksum** - Calculate CRC checksums
+- **clear** - Clear terminal screen
+- **cmp** - Compare two files
+- **comm** - Compare sorted files line by line
+- **conspy** - Virtual console logger
+- **cp** - Copy files and directories
+- **cpio** - Copy files to/from archives
+- **crond** - Daemon to execute scheduled commands
+- **crontab** - Maintain crontab files
+- **cryptpw** - Output encrypted passwords
+- **cttyhack** - Control TTY hack
+- **cut** - Remove sections from lines of files
+- **crc32** - Calculate CRC32 checksums
+
+### D
+- **date** - Display or set system date and time
+- **dc** - Desk calculator
+- **dd** - Convert and copy a file
+- **deallocvt** - Deallocate unused virtual terminals
+- **delgroup** - Delete a group
+- **deluser** - Delete a user
+- **depmod** - Generate modules.dep
+- **devmem** - Read/write from physical memory
+- **df** - Report file system disk space usage
+- **dhcprelay** - DHCP relay agent
+- **diff** - Compare files line by line
+- **dirname** - Strip last component from file name
+- **dmesg** - Print or control kernel ring buffer
+- **dnsd** - Small DNS daemon
+- **dnsdomainname** - Show DNS domain name
+- **dos2unix** - Convert DOS to Unix line endings
+- **dpkg** - Debian package manager
+- **dpkg-deb** - Debian package archive tool
+- **du** - Estimate file space usage
+- **dumpkmap** - Print keyboard translation table
+- **dumpleases** - Display DHCP leases
+
+### E
+- **echo** - Display a line of text
+- **ed** - Line-oriented text editor
+- **egrep** - Extended grep
+- **eject** - Eject removable media
+- **env** - Run program in modified environment
+- **envdir** - Run program with environment from directory
+- **envuidgid** - Run program with specific UID/GID
+- **ether-wake** - Send Wake-On-LAN magic packet
+- **expand** - Convert tabs to spaces
+- **expr** - Evaluate expressions
+- **factor** - Factor integers
+- **fakeidentd** - Fake ident daemon
+- **fallocate** - Preallocate space to a file
+- **false** - Return false value
+- **fatattr** - Change FAT attributes
+- **fbset** - Show/modify frame buffer settings
+- **fbsplash** - Splash screen on frame buffer
+- **fdflush** - Force floppy disk flush
+- **fdformat** - Low-level format floppy disk
+- **fdisk** - Partition table manipulator
+- **fgconsole** - Print active virtual console number
+- **fgrep** - Fixed string grep
+- **find** - Search for files in directory hierarchy
+- **findfs** - Find filesystem by label or UUID
+- **flock** - Manage file locks
+- **fold** - Wrap text to fit width
+- **free** - Display amount of free memory
+- **freeramdisk** - Free ramdisk
+- **fsck** - Check and repair filesystem
+- **fsck.minix** - Check Minix filesystem
+- **fsfreeze** - Freeze/unfreeze filesystem
+- **fstrim** - Discard unused blocks
+- **fsync** - Synchronize file's in-core state
+- **ftpd** - FTP server
+- **ftpget** - Download via FTP
+- **ftpput** - Upload via FTP
+- **fuser** - Identify processes using files
+
+### G
+- **getopt** - Parse command options
+- **getty** - Open tty and set terminal mode
+- **grep** - Print lines matching pattern
+- **groups** - Print group memberships
+- **gunzip** - Decompress gzip files
+- **gzip** - Compress files using gzip
+
+### H
+- **halt** - Halt the system
+- **hd** - Hex dump
+- **hdparm** - Get/set hard disk parameters
+- **head** - Output first part of files
+- **hexdump** - Display file in hexadecimal
+- **hexedit** - Hex editor
+- **hostid** - Print numeric host identifier
+- **hostname** - Show or set system hostname
+- **httpd** - HTTP server
+- **hush** - Hush shell
+- **hwclock** - Query/set hardware clock
+
+### I
+- **i2cdetect** - Detect I2C chips
+- **i2cdump** - Dump I2C chip data
+- **i2cget** - Read I2C data
+- **i2cset** - Set I2C data
+- **i2ctransfer** - Send I2C messages
+- **id** - Print user identity
+- **ifconfig** - Configure network interface
+- **ifdown** - Take network interface down
+- **ifenslave** - Configure network device bonding
+- **ifplugd** - Daemon for cable detection
+- **ifup** - Bring network interface up
+- **inetd** - Internet super-server
+- **init** - Init process
+- **insmod** - Insert kernel module
+- **install** - Copy files and set attributes
+- **ionice** - Set/get I/O scheduling class
+- **iostat** - Report CPU and I/O statistics
+- **ip** - Show/manipulate routing, devices
+- **ipaddr** - IP address management
+- **ipcalc** - Calculate IP network settings
+- **ipcrm** - Remove IPC objects
+- **ipcs** - Show IPC status
+- **iplink** - Network device configuration
+- **ipneigh** - Neighbor/ARP table management
+- **iproute** - Routing table management
+- **iprule** - Routing policy database
+- **iptunnel** - IP tunnel configuration
+- **kbd_mode** - Set keyboard mode
+
+### K
+- **kill** - Send signal to process
+- **killall** - Kill processes by name
+- **killall5** - Send signal to all processes
+- **klogd** - Kernel log daemon
+
+### L
+- **last** - Show last logged in users
+- **less** - Pager program
+- **link** - Create hard link
+- **linux32** - Set 32-bit personality
+- **linux64** - Set 64-bit personality
+- **linuxrc** - Init for initrd
+- **ln** - Create links between files
+- **loadfont** - Load console font
+- **loadkmap** - Load keyboard translation table
+- **logger** - Write to system log
+- **login** - Begin session on system
+- **logname** - Print user's login name
+- **logread** - Show messages in syslog buffer
+- **losetup** - Set up loop devices
+- **lpd** - Line printer daemon
+- **lpq** - Show printer queue
+- **lpr** - Send files to printer
+- **ls** - List directory contents
+- **lsattr** - List file attributes
+- **lsmod** - Show loaded kernel modules
+- **lsof** - List open files
+- **lspci** - List PCI devices
+- **lsscsi** - List SCSI devices
+- **lsusb** - List USB devices
+- **lzcat** - Decompress lzma to stdout
+- **lzma** - Compress/decompress LZMA files
+- **lzop** - Fast compressor
+- **lzopcat** - Decompress lzop to stdout
+
+### M
+- **makedevs** - Create device nodes
+- **makemime** - Create MIME message
+- **man** - Format and display manual pages
+- **md5sum** - Calculate MD5 checksums
+- **mdev** - Mini device manager
+- **mesg** - Control write access to terminal
+- **microcom** - Minicom-like serial terminal
+- **mim** - Multi-purpose MIME tool
+- **mkdir** - Create directories
+- **mkdosfs** - Create MS-DOS filesystem
+- **mke2fs** - Create ext2/ext3/ext4 filesystem
+- **mkfifo** - Create named pipes
+- **mkfs.ext2** - Create ext2 filesystem
+- **mkfs.minix** - Create Minix filesystem
+- **mkfs.vfat** - Create FAT filesystem
+- **mknod** - Create special files
+- **mkpasswd** - Encrypt password
+- **mkswap** - Set up swap area
+- **mktemp** - Create temporary file/directory
+- **modinfo** - Show kernel module info
+- **modprobe** - Load kernel module with dependencies
+- **more** - Pager program
+- **mount** - Mount filesystem
+- **mountpoint** - Check if directory is mountpoint
+- **mpstat** - Report processor statistics
+- **mt** - Magnetic tape control
+- **mv** - Move/rename files
+
+### N
+- **nameif** - Rename network interface
+- **nanddump** - Dump NAND flash
+- **nandwrite** - Write to NAND flash
+- **nbd-client** - Network block device client
+- **nc** - Netcat - TCP/IP swiss army knife
+- **netstat** - Show network connections
+- **nice** - Run program with modified priority
+- **nl** - Number lines
+- **nmeter** - System resource monitor
+- **nohup** - Run command immune to hangups
+- **nologin** - Politely refuse login
+- **nproc** - Print number of processors
+- **nsenter** - Enter namespace
+- **nslookup** - Query DNS servers
+- **ntpd** - NTP daemon
+- **nuke** - Remove file forcefully
+
+### O
+- **od** - Dump files in octal/other formats
+- **openvt** - Start program on new virtual terminal
+
+### P
+- **partprobe** - Inform OS of partition changes
+- **passwd** - Change user password
+- **paste** - Merge lines of files
+- **patch** - Apply diff file
+- **pgrep** - Look up processes by name
+- **pidof** - Find process ID by name
+- **ping** - Send ICMP ECHO_REQUEST
+- **ping6** - Send ICMPv6 ECHO_REQUEST
+- **pipe_progress** - Show data transfer progress
+- **pivot_root** - Change root filesystem
+- **pkill** - Signal processes by name
+- **pmap** - Report memory map of process
+- **popmaildir** - Fetch mail from Maildir
+- **poweroff** - Halt and power off system
+- **powertop** - Power consumption monitor
+- **printenv** - Print environment variables
+- **printf** - Format and print data
+- **ps** - Report process status
+- **pscan** - Simple port scanner
+- **pstree** - Display process tree
+- **pwd** - Print working directory
+- **pwdx** - Print working directory of process
+
+### R
+- **raidautorun** - Auto-start RAID arrays
+- **rdate** - Get date from network
+- **rdev** - Query/set root device
+- **readahead** - Preload files into cache
+- **readlink** - Print resolved symbolic links
+- **readprofile** - Read kernel profiling data
+- **realpath** - Return resolved absolute pathname
+- **reboot** - Reboot the system
+- **reformime** - Parse MIME messages
+- **remove-shell** - Remove shell from /etc/shells
+- **renice** - Alter process priority
+- **reset** - Reset terminal
+- **resize** - Set terminal size
+- **resume** - Resume from hibernation
+- **rev** - Reverse lines
+- **rm** - Remove files or directories
+- **rmdir** - Remove empty directories
+- **rmmod** - Remove kernel module
+- **route** - Show/manipulate IP routing table
+- **rpm** - RPM package manager
+- **rpm2cpio** - Convert RPM to cpio
+- **rtcwake** - Wake system from sleep
+- **run-init** - Run init with new root
+- **run-parts** - Run scripts in directory
+- **runlevel** - Print system runlevel
+- **runsv** - Run supervised service
+- **runsvdir** - Run directory of services
+- **rx** - Receive files via XMODEM
+- **script** - Make typescript of terminal session
+- **scriptreplay** - Replay typescript
+
+### S
+- **sed** - Stream editor
+- **sendmail** - Send email
+- **seq** - Print sequence of numbers
+- **setarch** - Change reported architecture
+- **setconsole** - Redirect system console
+- **setfattr** - Set extended attributes
+- **setfont** - Load console screen font
+- **setkeycodes** - Load kernel scancode-to-keycode mapping
+- **setlogcons** - Redirect kernel messages
+- **setpriv** - Run program with different privileges
+- **setserial** - Configure serial port
+- **setsid** - Run program in new session
+- **setuidgid** - Run command with specific UID/GID
+- **sh** - Shell
+- **sha1sum** - Calculate SHA1 checksums
+- **sha256sum** - Calculate SHA256 checksums
+- **sha3sum** - Calculate SHA3 checksums
+- **sha512sum** - Calculate SHA512 checksums
+- **showkey** - Display pressed keys
+- **shred** - Overwrite file to hide contents
+- **shuf** - Generate random permutations
+- **slattach** - Attach serial line to network
+- **sleep** - Delay for specified time
+- **smemcap** - Capture process memory info
+- **softlimit** - Run command with resource limits
+- **sort** - Sort lines of text
+- **split** - Split file into pieces
+- **ssl_client** - SSL/TLS client
+- **start-stop-daemon** - Start/stop system daemons
+- **stat** - Display file/filesystem status
+- **strings** - Print strings from binary files
+- **stty** - Change terminal settings
+- **su** - Run shell with substitute user
+- **sulogin** - Single-user login
+- **sum** - Calculate checksums
+- **sv** - Control runsv services
+- **svc** - Control supervised services
+- **svlogd** - Logging daemon
+- **svok** - Check if service is running
+- **swapoff** - Disable swap
+- **swapon** - Enable swap
+- **switch_root** - Switch to new root
+- **sync** - Flush filesystem buffers
+- **sysctl** - Configure kernel parameters
+- **syslogd** - System logging daemon
+- **tac** - Concatenate and print in reverse
+
+### T
+- **tail** - Output last part of files
+- **tar** - Tape archiver
+- **taskset** - Set/retrieve CPU affinity
+- **tc** - Traffic control
+- **tcpsvd** - TCP service daemon
+- **tee** - Read and write to files
+- **telnet** - User interface to TELNET
+- **telnetd** - TELNET server
+- **test** - Check file types and values
+- **tftp** - TFTP client
+- **tftpd** - TFTP server
+- **time** - Run program and report timing
+- **timeout** - Run command with time limit
+- **top** - Display system tasks
+- **touch** - Change file timestamps
+- **tr** - Translate or delete characters
+- **traceroute** - Trace route to host
+- **traceroute6** - Trace IPv6 route
+- **true** - Return true value
+- **truncate** - Shrink/extend file size
+- **ts** - Add timestamps to data
+- **tty** - Print terminal name
+- **ttysize** - Print terminal dimensions
+- **tunctl** - Create/delete TUN/TAP devices
+- **tune2fs** - Adjust ext2/ext3/ext4 parameters
+
+### U
+- **ubiattach** - Attach UBI device
+- **ubidetach** - Detach UBI device
+- **ubimkvol** - Create UBI volume
+- **ubirename** - Rename UBI volume
+- **ubirmvol** - Remove UBI volume
+- **ubirsvol** - Resize UBI volume
+- **ubiupdatevol** - Update UBI volume
+- **udhcpc** - DHCP client
+- **udhcpc6** - DHCPv6 client
+- **udhcpd** - DHCP server
+- **udpsvd** - UDP service daemon
+- **uevent** - Monitor kernel events
+- **umount** - Unmount filesystems
+- **uname** - Print system information
+- **uncompress** - Decompress .Z files
+- **unexpand** - Convert spaces to tabs
+- **uniq** - Remove duplicate lines
+- **unix2dos** - Convert Unix to DOS line endings
+- **unlink** - Remove file via unlink()
+- **unlzma** - Decompress LZMA files
+- **unlzop** - Decompress lzop files
+- **unshare** - Run program with namespaces unshared
+- **unxz** - Decompress XZ files
+- **unzip** - Extract files from ZIP archive
+- **uptime** - Show system uptime
+- **users** - Print current user names
+- **usleep** - Sleep for microseconds
+- **uudecode** - Decode uuencoded file
+- **uuencode** - Encode file using uuencode
+
+### V
+- **vconfig** - VLAN configuration
+- **vi** - Text editor
+- **vlock** - Virtual console lock
+- **volname** - Get volume name
+- **w** - Show who is logged on
+- **wall** - Send message to all users
+- **watch** - Execute program periodically
+- **watchdog** - Watchdog daemon
+- **wc** - Print line/word/byte counts
+- **wget** - Network downloader
+- **which** - Locate command
+- **who** - Show who is logged on
+- **whoami** - Print effective user name
+- **whois** - Query whois servers
+- **xargs** - Build and execute commands
+- **xxd** - Make hexdump
+- **xz** - Compress/decompress XZ files
+- **xzcat** - Decompress XZ to stdout
+- **yes** - Output string repeatedly
+- **zcat** - Decompress gzip to stdout
+- **zcip** - Zero Configuration IP
+
+---
+
+## Command Categories
+
+### File Operations
+cat, cp, mv, rm, mkdir, rmdir, ln, touch, chmod, chown, chgrp, dd, install
+
+### Text Processing
+awk, sed, grep, cut, sort, uniq, tr, wc, head, tail, diff, patch, fold, expand
+
+### Compression
+gzip, gunzip, bzip2, bunzip2, xz, unxz, tar, zip, unzip, lzma, lzop
+
+### Network
+wget, nc, telnet, ping, ifconfig, ip, netstat, route, traceroute, nslookup, ftpget, ftpput
+
+### System Info
+ps, top, free, df, du, uptime, uname, hostname, dmesg, lsmod, lspci, lsusb
+
+### Process Management
+kill, killall, pidof, pgrep, pkill, nice, renice, nohup, timeout
+
+### User Management
+su, sudo, login, passwd, adduser, deluser, addgroup, delgroup, id, who, whoami
+
+### Utilities
+date, cal, bc, expr, seq, sleep, watch, tee, echo, printf, test, time
+
+---
+
+## Usage Tips
+
+1. **Get help for any command:**
+   ```bash
+   busybox <command> --help
+   ```
+
+2. **Check BusyBox version:**
+   ```bash
+   busybox --version
+   ```
+
+3. **List all commands:**
+   ```bash
+   busybox --list
+   ```
+
+4. **Run specific BusyBox version:**
+   ```bash
+   busybox <command> [options]
+   ```
+
+---
+
+**Note:** The actual commands available may vary slightly depending on how BusyBox was compiled. Run `busybox --list` on your system to see the exact list of available commands.

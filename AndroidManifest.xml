@@ -1,0 +1,6 @@
+<manifest package="org.example.busybox"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="BusyBox v1.37.0">
+        <meta-data android:name="busybox.config" android:value="package.config"/>
+    </application>
+</manifest>
